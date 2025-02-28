@@ -253,10 +253,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "firstname": {
-                    "type": "string"
-                  },
-                  "lastname": {
+                  "name": {
                     "type": "string"
                   },
                   "price": {
@@ -271,8 +268,7 @@
                   }
                 },
                 "example": {
-                  "firstname": "somename",
-                  "lastname": "someothername",
+                  "name": "somename",
                   "price": 200.5,
                   "quantity": 10,
                   "description": "this is a description"
@@ -387,10 +383,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "firstname": {
-                    "type": "string"
-                  },
-                  "lastname": {
+                  "name": {
                     "type": "string"
                   },
                   "price": {
@@ -405,8 +398,7 @@
                   }
                 },
                 "example": {
-                  "firstname": "somename",
-                  "lastname": "someothername",
+                  "name": "somename",
                   "price": 200.5,
                   "quantity": 10,
                   "description": "this is a description"
